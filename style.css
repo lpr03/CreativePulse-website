@@ -67,6 +67,8 @@ body {
     height: 95%;
     width: 100%;
     background-image: url(https://images.unsplash.com/photo-1523285697302-bb5503e3a5b3?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGVzaWduJTIwY29tcGFueXxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: cover;
+    background-repeat: repeat-x;
 }
 
 #about {
@@ -186,10 +188,10 @@ body {
     font-size: 20px;
 }
 
-@media (max-width:850px) {
+@media (max-width:650px) {
     #intro h1 {
-        font-size: 8vh;
-        line-height: 7vh;
+        font-size: 5vh;
+        line-height: 4.5vh;
         letter-spacing: -3.5px;
     }
 
@@ -203,6 +205,8 @@ body {
         height: calc(100% - 37%);
         width: 100%;
         background-image: url(https://images.unsplash.com/photo-1523285697302-bb5503e3a5b3?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGVzaWduJTIwY29tcGFueXxlbnwwfHwwfHx8MA%3D%3D);
+        background-position: cover;
+        background-repeat: no-repeat;
     }
 
     #about {
